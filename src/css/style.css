@@ -55,7 +55,7 @@ nav h1{
 	color:#FF575F;
 }
 .tona-logo{
-	width:30%;
+	width:50%;
 	height:30%;
 }
 .separa-img{
@@ -156,7 +156,7 @@ img{
 .referencia{
 	margin-top: 1rem;
 	width: 80%; 
-	height: 12rem; 
+	height: 12.5rem; 
 	background: #6EE7D1;
 	-moz-border-radius: 0 45% 45% 0;
 	-webkit-border-radius: 0 45% 45% 0;
@@ -177,4 +177,19 @@ h3{
 }
 .anti4-img{
 	width:90%;
+}
+.grafica-img{
+	width:80%;
+}
+.circulo {
+     width: 30px;
+     height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: .3rem solid #FF8A90;
+     margin: auto;
+}
+.pEs {
+    margin: .3rem 0 0 0;
 }
