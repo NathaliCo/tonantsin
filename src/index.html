@@ -22,27 +22,62 @@
 		<link rel="stylesheet" href="js/jquery-ui.min.css" />
 	</head>
 	<body>
-	<nav class="uk-navbar uk-navbar-container uk-margin">
+	<nav class="uk-navbar uk-navbar-container uk-margin" uk-sticky="bottom: #offset">
 		<div class="uk-navbar-left">
 			<a class="uk-navbar-toggle" href="#">
 				<span uk-navbar-toggle-icon></span>
 			</a>
 		</div>
-			<h1>Tonantsin</h1>
+			<img class ="tona-logo" src="assets/logo-rojo.png"/>
 			<span class="lengua"><h3>Es</h3></span>
 	</nav>
 		<div class="contenido" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
 			<div class= "bienvenida">
-				<p>Tú eres dueña de tu cuerpo, solo tú puedes decidir lo mejor para tu salud.
-				Aquí encontrarás información sobre cómo identificar y prevenir de la violencia obstétrica, las leyes que te respaldan, y los diferentes métodos anticonceptivos que puede utilizar.</p>
-			<div>
+				<p>Tú eres dueña de tu cuerpo solo tú puedes decidir lo mejor para tu salud.</p>
+				<img class="mujeres-img" src="assets/mujeres01.png"/>
+				<p>Aquí encontrarás información sobre cómo identificar y prevenir la violencia obstétrica, las leyes que te respaldan, y los diferentes métodos anticonceptivos que puedes utilizar.</p>
+				<img src="assets/separador.png"/>
+			</div>
 			<div class = "contexto">
-				<h1>Violencia obstétrica</h1>
+				<h1 uk-sticky="bottom: #offset">Violencia obstétrica</h1>
 				<h3>¿Qué es?</h3>
-				<p>La violencia en la atención obstétrica es toda acción u omisión por parte del personal de salud que cause daño físico o psicológico a la mujer durante el embarazo, parto o puerperio, actos que constituyen una violación a los derechos humanos y reproductivos de las mujeres. </p>
+				<p>La violencia en la atención obstétrica es toda acción u omisión por parte del personal de salud que cause daño físico o psicológico a la mujer durante el embarazo, parto o puerperio, actos que constituyen una violación a los derechos humanos y reproductivos de las mujeres.  </p>
+				<div class="cont-contexto">
+						<img class= "agresion-img" src="assets/agresion01.png"/>
+						<img  class= "mano-img" src="assets/mano.png"/>
+						<img  class= "comp-img" src="assets/btn-compartir.png"/>
+						<img  class= "mujer-img" src="assets/mujer01.png"/>
+				</div>
+				<h3> Formas en que se representa </h3>
+				<div class="tipos">
+					<p class ="tipos-lista">
+						- Regaños<br>
+						- Burlas <br>
+						- Ironías <br>
+						- Insultos <br>
+						- Amenazas <br>
+						- Reclamos <br>
+						- Discriminación <br>- Humillación <br>
+						- Manipulación 
+					</p>
+					<img class= "agresion1-img" src="assets/agresion01.png"/>
+					<img  class= "mano1-img" src="assets/mano.png"/>
+					<img  class= "ojos-img" src="assets/ojos.png"/>
+					<p class ="tipos-lista2">- Negación al tratamiento 
+						- Falta de acceso al sistema de salud 
+						- Atención deficiente en el sistema
+					</p>
+					<img class= "agresion2-img" src="assets/agresion02.png"/>
+					<img  class= "comp2-img" src="assets/btn-compartir.png"/>
+				</div>
+				<h3>Legislaciones que te respandan en <span class="mexico">México</span></h3>
+				<p>Las obligaciones y criterios que debe de seguir el personal que brinda servicios de salud a las mujeres durante el embarazo, parto y puerperio, así como la que recibe la persona recién nacida se encuentra regulada por la Norma Oficial Mexicana <b>NOM-007-SSA2-2016.</b></p>
+				<div class="referencia">Disponible aqui:
+				<p class="cita">Norma Oficial Mexicana PARA LA ATENCION DELA MUJER DURANTE EL EMBARAZO, PARTO Y PUERPERIO, Y DE LA
+PERSONA RECIEN NACIDA </p></span>
 			</div>
 			<div class = "comunidad">
-			<img class = "comunidad-img" src="assets/comunidad.png"/>
+				<img class = "comunidad-img" src="assets/btn-comunidad.png"/>
 			</div>
 		</div>
 	</body>
